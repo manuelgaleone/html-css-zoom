@@ -24,6 +24,17 @@ body {
     
 }
 
+.row-space {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.col-1 {
+    width: calc(100 / 12 * 1);
+}
+
 .col-3 {
     width: calc(100 / 12 * 3);
 }
@@ -50,7 +61,6 @@ body {
 }
 
 /*Main*/
-
 #person {
     width: 235px;
 }
@@ -84,4 +94,28 @@ body {
 
 .white {
     color: white;
+}
+
+/*Footer*/
+.main-footer {
+    background-color: grey;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.pad-footer {
+    padding: 25px;
+}
+
+.mute {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.mic {
+    font-size: 35px;
 }
