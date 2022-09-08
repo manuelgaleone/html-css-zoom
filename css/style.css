@@ -19,7 +19,8 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-
+    flex-wrap: no-wrap;
+    
 }
 
 .col-3 {
