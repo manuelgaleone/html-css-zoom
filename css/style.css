@@ -27,7 +27,7 @@ body {
 .row-space {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .grey {
     background-color: grey;
-    padding: 25px;
+    
 }
 
 .arrow {
