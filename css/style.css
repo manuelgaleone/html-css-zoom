@@ -19,7 +19,8 @@ body {
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -51,11 +52,11 @@ body {
 /*Main*/
 
 #person {
-    height: 250px;
+    width: 235px;
 }
 
 .pad {
-    padding: 10px;
+    padding: 5px;
 }
 
 .person-info {
