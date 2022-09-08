@@ -27,8 +27,8 @@ body {
 .row-space {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around; 
+    align-items: center;
 }
 
 .col-1 {
@@ -98,7 +98,7 @@ body {
 
 /*Footer*/
 .main-footer {
-    background-color: grey;
+    background-color: lightgrey;
 
 }
 
@@ -118,4 +118,17 @@ body {
 
 .mic {
     font-size: 35px;
+}
+
+.red {
+    color: red;
+}
+
+.right {
+    text-align: right;
+}
+
+.grey {
+    background-color: grey;
+    padding: 25px;
 }
