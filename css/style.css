@@ -16,6 +16,12 @@ body {
     margin: auto;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .col-3 {
     width: calc(100 / 12 * 3);
 }
@@ -39,4 +45,44 @@ body {
     color: white;
     background-color: grey;
     border-radius: 7px;
+}
+
+/*Main*/
+.main-container {
+
+}
+
+#person {
+    height: 250px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+.person-info {
+    background-color: rgba(57, 57, 57, 0.585);
+    height: 30px;
+    width: 115px;
+    position: relative;
+    top: -35px;
+    padding: 5px;
+    
+}
+
+.microphone {
+    position: relative;
+
+
+}
+
+.person-name {
+    position: relative;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.white {
+    color: white;
 }
