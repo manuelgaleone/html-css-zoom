@@ -17,11 +17,6 @@ body {
     
 }
 
-.fullscreen {
-    width: 100%;
-    height: 207vh;
-  }
-
 .row {
     display: flex;
     flex-direction: row;
