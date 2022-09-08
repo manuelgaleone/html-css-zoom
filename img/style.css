@@ -1,0 +1,28 @@
+/*Common Settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+/*General Settings*/
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.col-3 {
+    width: calc(100 / 12 * 3);
+}
+
+.col-6 {
+    width: calc(100 / 12 * 6);
+}
+
+.col-9 {
+    width: calc(100 / 12 * 9);
+}
